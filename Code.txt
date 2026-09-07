@@ -1,0 +1,35 @@
+//1 код
+System.out.println("Zanya");
+System.out.println("19")
+System.out.println(Караганда");
+//2 код
+int age = 19;
+        double price = 19.99;
+        boolean tf = true;
+        String name = "Александр";
+        char grade = 'A';
+
+        System.out.println(age);
+        System.out.println(price);
+        System.out.println(tf);
+        System.out.println(name);
+        System.out.println(grade);
+//3 код
+for (int i = 1; i <= 10; i++) {
+System.out.println("7 * " + i + " = " + (7 * i));
+//4 код
+int stars = 5;
+
+        for (int i = 1; i <= stars; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        for (int i = stars - 1; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
